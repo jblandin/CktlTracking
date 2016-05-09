@@ -1,0 +1,521 @@
+{
+  "data": [
+    {
+      "id"     : "5332b390fbf59a12fd0000c3",
+      "code"   : "AMA",
+      "label"  : "Alain Ma",
+      "groupe" : {
+        "code"      : "SOCLE",
+        "created_at": "2015-05-11T14:57:18Z",
+        "id"        : "5550c34efbf59a70fb00082e",
+        "label"     : "Socle",
+        "updated_at": "2015-05-11T14:57:18Z"
+      },
+      "visible": true
+    },
+    {
+      "id"     : "5332b390fbf59a12fd0000c4",
+      "code"   : "ATU",
+      "label"  : "Alexis Tu",
+      "groupe" : {
+        "code"      : "SOCLE",
+        "created_at": "2015-05-11T14:57:18Z",
+        "id"        : "5550c34efbf59a70fb00082e",
+        "label"     : "Socle",
+        "updated_at": "2015-05-11T14:57:18Z"
+      },
+      "visible": true
+    },
+    {
+      "id"     : "552be586fbf59a06a527f616",
+      "code"   : "ACH",
+      "label"  : "Anthony Ch",
+      "groupe" : {
+        "code"      : "GRH",
+        "created_at": "2014-03-26T11:01:36Z",
+        "id"        : "5332b390fbf59a12fd0000a1",
+        "label"     : "GRH",
+        "rang"      : 2,
+        "updated_at": "2014-03-26T11:01:36Z"
+      },
+      "visible": true
+    },
+    {
+      "id"     : "5549b662fbf59a06a535470e",
+      "code"   : "AGO",
+      "label"  : "Anthony Go",
+      "groupe" : {
+        "code"      : "GFC",
+        "created_at": "2014-03-26T11:01:36Z",
+        "id"        : "5332b390fbf59a12fd0000a2",
+        "label"     : "GFC",
+        "rang"      : 3,
+        "updated_at": "2014-03-26T11:01:36Z"
+      },
+      "visible": true
+    },
+    {
+      "id"     : "54b69f1afbf59a15cb00002f",
+      "code"   : "BBO",
+      "label"  : "Bertrand Bo",
+      "groupe" : {
+        "code"      : "AMOE",
+        "created_at": "2015-01-14T16:53:46Z",
+        "id"        : "54b69f1afbf59a15cb00002a",
+        "label"     : "AMOE",
+        "updated_at": "2015-01-14T16:53:46Z"
+      },
+      "visible": true
+    },
+    {
+      "id"     : "571f90edaddb3c2af0000003",
+      "code"   : "CES",
+      "label"  : "Cecile Es",
+      "groupe" : {
+        "code"      : "GFC2",
+        "created_at": "2016-02-11T16:27:15Z",
+        "id"        : "56bcb663addb3c2dfe000002",
+        "label"     : "GFC2",
+        "updated_at": "2016-02-11T16:27:15Z"
+      },
+      "visible": true
+    },
+    {
+      "id"     : "5332b390fbf59a12fd0000c6",
+      "code"   : "CLA",
+      "label"  : "Chama La",
+      "groupe" : {
+        "code"      : "GRH",
+        "created_at": "2014-03-26T11:01:36Z",
+        "id"        : "5332b390fbf59a12fd0000a1",
+        "label"     : "GRH",
+        "rang"      : 2,
+        "updated_at": "2014-03-26T11:01:36Z"
+      },
+      "visible": true
+    },
+    {
+      "id"     : "5332b390fbf59a12fd0000c9",
+      "code"   : "CPI",
+      "label"  : "Cyril Pi",
+      "groupe" : {
+        "code"      : "GRH",
+        "created_at": "2014-03-26T11:01:36Z",
+        "id"        : "5332b390fbf59a12fd0000a1",
+        "label"     : "GRH",
+        "rang"      : 2,
+        "updated_at": "2014-03-26T11:01:36Z"
+      },
+      "visible": true
+    },
+    {
+      "id"     : "570cf124addb3c1f77000005",
+      "code"   : "DBO",
+      "label"  : "Didier Bo",
+      "groupe" : {
+        "code"      : "GFC2",
+        "created_at": "2016-02-11T16:27:15Z",
+        "id"        : "56bcb663addb3c2dfe000002",
+        "label"     : "GFC2",
+        "updated_at": "2016-02-11T16:27:15Z"
+      },
+      "visible": true
+    },
+    {
+      "id"     : "5486a810fbf59a4c180f3fda",
+      "code"   : "FBR",
+      "label"  : "Florence Br",
+      "groupe" : {
+        "code"      : "GFC",
+        "created_at": "2014-03-26T11:01:36Z",
+        "id"        : "5332b390fbf59a12fd0000a2",
+        "label"     : "GFC",
+        "rang"      : 3,
+        "updated_at": "2014-03-26T11:01:36Z"
+      },
+      "visible": true
+    },
+    {
+      "id"     : "53ce63edfbf59a39c1000005",
+      "code"   : "FDI",
+      "label"  : "Florent Di",
+      "groupe" : {
+        "code"      : "GFC",
+        "created_at": "2014-03-26T11:01:36Z",
+        "id"        : "5332b390fbf59a12fd0000a2",
+        "label"     : "GFC",
+        "rang"      : 3,
+        "updated_at": "2014-03-26T11:01:36Z"
+      },
+      "visible": true
+    },
+    {
+      "id"     : "5332b390fbf59a12fd0000ce",
+      "code"   : "FLA",
+      "label"  : "Fran\u00e7ois La",
+      "groupe" : {
+        "code"      : "GFC",
+        "created_at": "2014-03-26T11:01:36Z",
+        "id"        : "5332b390fbf59a12fd0000a2",
+        "label"     : "GFC",
+        "rang"      : 3,
+        "updated_at": "2014-03-26T11:01:36Z"
+      },
+      "visible": true
+    },
+    {
+      "id"     : "53ce63edfbf59a39c1000006",
+      "code"   : "FFA",
+      "label"  : "Fr\u00e9d\u00e9ric Fa",
+      "groupe" : {
+        "code"      : "RECHERCHE",
+        "created_at": "2015-09-07T14:29:49Z",
+        "id"        : "55ed9f5daddb3c0344000002",
+        "label"     : "Recherche",
+        "updated_at": "2015-09-07T14:29:49Z"
+      },
+      "visible": true
+    },
+    {
+      "id"     : "54b69f1afbf59a15cb000030",
+      "code"   : "FLO",
+      "label"  : "Fr\u00e9d\u00e9ric Lo",
+      "groupe" : {
+        "code"      : "AMOE",
+        "created_at": "2015-01-14T16:53:46Z",
+        "id"        : "54b69f1afbf59a15cb00002a",
+        "label"     : "AMOE",
+        "updated_at": "2015-01-14T16:53:46Z"
+      },
+      "visible": true
+    },
+    {
+      "id"     : "5332b390fbf59a12fd0000d5",
+      "code"   : "GLV",
+      "label"  : "Gabriel Le",
+      "groupe" : {
+        "code"      : "Autre",
+        "created_at": "2014-03-26T11:01:36Z",
+        "id"        : "5332b390fbf59a12fd0000a3",
+        "label"     : "Autre",
+        "rang"      : 4,
+        "updated_at": "2014-03-26T11:01:36Z"
+      },
+      "visible": true
+    },
+    {
+      "id"     : "5332b390fbf59a12fd0000c1",
+      "code"   : "IRE",
+      "label"  : "Isabelle R\u00e9",
+      "groupe" : {
+        "code"      : "PAU/TOULOUSE",
+        "created_at": "2014-03-26T11:01:36Z",
+        "id"        : "5332b390fbf59a12fd0000a0",
+        "label"     : "Pau/Toulouse",
+        "rang"      : 1,
+        "updated_at": "2015-05-11T14:57:15Z"
+      },
+      "visible": true
+    },
+    {
+      "id"     : "54b69f1afbf59a15cb000031",
+      "code"   : "JCZ",
+      "label"  : "Janucz Sm",
+      "groupe" : {
+        "code"      : "AMOE",
+        "created_at": "2015-01-14T16:53:46Z",
+        "id"        : "54b69f1afbf59a15cb00002a",
+        "label"     : "AMOE",
+        "updated_at": "2015-01-14T16:53:46Z"
+      },
+      "visible": true
+    },
+    {
+      "id"     : "5332b390fbf59a12fd0000be",
+      "code"   : "JMP",
+      "label"  : "Jean-Marc Pu",
+      "groupe" : {
+        "code"      : "PAU/TOULOUSE",
+        "created_at": "2014-03-26T11:01:36Z",
+        "id"        : "5332b390fbf59a12fd0000a0",
+        "label"     : "Pau/Toulouse",
+        "rang"      : 1,
+        "updated_at": "2015-05-11T14:57:15Z"
+      },
+      "visible": true
+    },
+    {
+      "id"     : "5332b390fbf59a12fd0000cd",
+      "code"   : "JBL",
+      "label"  : "Julien Bl",
+      "groupe" : {
+        "code"      : "GFC",
+        "created_at": "2014-03-26T11:01:36Z",
+        "id"        : "5332b390fbf59a12fd0000a2",
+        "label"     : "GFC",
+        "rang"      : 3,
+        "updated_at": "2014-03-26T11:01:36Z"
+      },
+      "visible": true
+    },
+    {
+      "id"     : "5332b390fbf59a12fd0000d3",
+      "code"   : "JCA",
+      "label"  : "Julien Ca",
+      "groupe" : {
+        "code"      : "GRH",
+        "created_at": "2014-03-26T11:01:36Z",
+        "id"        : "5332b390fbf59a12fd0000a1",
+        "label"     : "GRH",
+        "rang"      : 2,
+        "updated_at": "2014-03-26T11:01:36Z"
+      },
+      "visible": true
+    },
+    {
+      "id"     : "5332b390fbf59a12fd0000bd",
+      "code"   : "JLA",
+      "label"  : "Julien La",
+      "groupe" : {
+        "code"      : "SOCLE",
+        "created_at": "2015-05-11T14:57:18Z",
+        "id"        : "5550c34efbf59a70fb00082e",
+        "label"     : "Socle",
+        "updated_at": "2015-05-11T14:57:18Z"
+      },
+      "visible": true
+    },
+    {
+      "id"     : "5523c5a1fbf59a06a51e4db3",
+      "code"   : "KGA",
+      "label"  : "Katell Ga",
+      "groupe" : {
+        "code"      : "GFC",
+        "created_at": "2014-03-26T11:01:36Z",
+        "id"        : "5332b390fbf59a12fd0000a2",
+        "label"     : "GFC",
+        "rang"      : 3,
+        "updated_at": "2014-03-26T11:01:36Z"
+      },
+      "visible": true
+    },
+    {
+      "id"     : "5332b390fbf59a12fd0000c8",
+      "code"   : "LPR",
+      "label"  : "Laurent Pr",
+      "groupe" : {
+        "code"      : "GRH",
+        "created_at": "2014-03-26T11:01:36Z",
+        "id"        : "5332b390fbf59a12fd0000a1",
+        "label"     : "GRH",
+        "rang"      : 2,
+        "updated_at": "2014-03-26T11:01:36Z"
+      },
+      "visible": true
+    },
+    {
+      "id"     : "5332b390fbf59a12fd0000c0",
+      "code"   : "LMO",
+      "label"  : "La\u00ebtitia Mo",
+      "groupe" : {
+        "code"      : "PAU/TOULOUSE",
+        "created_at": "2014-03-26T11:01:36Z",
+        "id"        : "5332b390fbf59a12fd0000a0",
+        "label"     : "Pau/Toulouse",
+        "rang"      : 1,
+        "updated_at": "2015-05-11T14:57:15Z"
+      },
+      "visible": true
+    },
+    {
+      "id"     : "5332b390fbf59a12fd0000bf",
+      "code"   : "LDR",
+      "label"  : "Lilia Dr",
+      "groupe" : {
+        "code"      : "PAU/TOULOUSE",
+        "created_at": "2014-03-26T11:01:36Z",
+        "id"        : "5332b390fbf59a12fd0000a0",
+        "label"     : "Pau/Toulouse",
+        "rang"      : 1,
+        "updated_at": "2015-05-11T14:57:15Z"
+      },
+      "visible": true
+    },
+    {
+      "id"     : "55fa6d8eaddb3c5cf6000003",
+      "code"   : "MPM",
+      "label"  : "Maelan de",
+      "groupe" : {
+        "code"      : "PAU/TOULOUSE",
+        "created_at": "2014-03-26T11:01:36Z",
+        "id"        : "5332b390fbf59a12fd0000a0",
+        "label"     : "Pau/Toulouse",
+        "rang"      : 1,
+        "updated_at": "2015-05-11T14:57:15Z"
+      },
+      "visible": true
+    },
+    {
+      "id"     : "56bcb663addb3c2dfe00000c",
+      "code"   : "MKH",
+      "label"  : "Mahdi Kh",
+      "groupe" : {
+        "code"      : "GFC2",
+        "created_at": "2016-02-11T16:27:15Z",
+        "id"        : "56bcb663addb3c2dfe000002",
+        "label"     : "GFC2",
+        "updated_at": "2016-02-11T16:27:15Z"
+      },
+      "visible": true
+    },
+    {
+      "id"     : "56bcb663addb3c2dfe00000a",
+      "code"   : "MDU",
+      "label"  : "Marc Du",
+      "groupe" : {
+        "code"      : "GFC2",
+        "created_at": "2016-02-11T16:27:15Z",
+        "id"        : "56bcb663addb3c2dfe000002",
+        "label"     : "GFC2",
+        "updated_at": "2016-02-11T16:27:15Z"
+      },
+      "visible": true
+    },
+    {
+      "id"     : "54b69f1afbf59a15cb000032",
+      "code"   : "MTD",
+      "label"  : "Marc-Antoine Tu",
+      "groupe" : {
+        "code"      : "AMOE",
+        "created_at": "2015-01-14T16:53:46Z",
+        "id"        : "54b69f1afbf59a15cb00002a",
+        "label"     : "AMOE",
+        "updated_at": "2015-01-14T16:53:46Z"
+      },
+      "visible": true
+    },
+    {
+      "id"     : "56bb6474addb3c1765000003",
+      "code"   : "MMA",
+      "label"  : "Michael Ma",
+      "groupe" : {
+        "code"      : "GFC2",
+        "created_at": "2016-02-11T16:27:15Z",
+        "id"        : "56bcb663addb3c2dfe000002",
+        "label"     : "GFC2",
+        "updated_at": "2016-02-11T16:27:15Z"
+      },
+      "visible": true
+    },
+    {
+      "id"     : "570cf124addb3c1f77000003",
+      "code"   : "MAS",
+      "label"  : "Mourad As",
+      "groupe" : {
+        "code"      : "GFC",
+        "created_at": "2014-03-26T11:01:36Z",
+        "id"        : "5332b390fbf59a12fd0000a2",
+        "label"     : "GFC",
+        "rang"      : 3,
+        "updated_at": "2014-03-26T11:01:36Z"
+      },
+      "visible": true
+    },
+    {
+      "id"     : "5332b390fbf59a12fd0000c5",
+      "code"   : "PMA",
+      "label"  : "Pascal Ma",
+      "groupe" : {
+        "code"      : "PAU/TOULOUSE",
+        "created_at": "2014-03-26T11:01:36Z",
+        "id"        : "5332b390fbf59a12fd0000a0",
+        "label"     : "Pau/Toulouse",
+        "rang"      : 1,
+        "updated_at": "2015-05-11T14:57:15Z"
+      },
+      "visible": true
+    },
+    {
+      "id"     : "571f90edaddb3c2af0000005",
+      "code"   : "PSO",
+      "label"  : "Philippe So",
+      "groupe" : {
+        "code"      : "GFC2",
+        "created_at": "2016-02-11T16:27:15Z",
+        "id"        : "56bcb663addb3c2dfe000002",
+        "label"     : "GFC2",
+        "updated_at": "2016-02-11T16:27:15Z"
+      },
+      "visible": true
+    },
+    {
+      "id"     : "53ce63edfbf59a39c1000007",
+      "code"   : "RBO",
+      "label"  : "Raymond Bo",
+      "groupe" : {
+        "code"      : "GFC",
+        "created_at": "2014-03-26T11:01:36Z",
+        "id"        : "5332b390fbf59a12fd0000a2",
+        "label"     : "GFC",
+        "rang"      : 3,
+        "updated_at": "2014-03-26T11:01:36Z"
+      },
+      "visible": true
+    },
+    {
+      "id"     : "54be1007fbf59a4c18136f96",
+      "code"   : "RNA",
+      "label"  : "Raymond Na",
+      "groupe" : {
+        "code"      : "GFC",
+        "created_at": "2014-03-26T11:01:36Z",
+        "id"        : "5332b390fbf59a12fd0000a2",
+        "label"     : "GFC",
+        "rang"      : 3,
+        "updated_at": "2014-03-26T11:01:36Z"
+      },
+      "visible": true
+    },
+    {
+      "id"     : "5332b390fbf59a12fd0000cb",
+      "code"   : "RPR",
+      "label"  : "Rodolphe Pr",
+      "groupe" : {
+        "code"      : "GFC",
+        "created_at": "2014-03-26T11:01:36Z",
+        "id"        : "5332b390fbf59a12fd0000a2",
+        "label"     : "GFC",
+        "rang"      : 3,
+        "updated_at": "2014-03-26T11:01:36Z"
+      },
+      "visible": true
+    },
+    {
+      "id"     : "55dd6ef9addb3c339b000057",
+      "code"   : "VLE",
+      "label"  : "Valentin Le",
+      "groupe" : {
+        "code"      : "GRH",
+        "created_at": "2014-03-26T11:01:36Z",
+        "id"        : "5332b390fbf59a12fd0000a1",
+        "label"     : "GRH",
+        "rang"      : 2,
+        "updated_at": "2014-03-26T11:01:36Z"
+      },
+      "visible": true
+    },
+    {
+      "id"     : "56bcb663addb3c2dfe000006",
+      "code"   : "VBE",
+      "label"  : "Vincent Be",
+      "groupe" : {
+        "code"      : "GFC2",
+        "created_at": "2016-02-11T16:27:15Z",
+        "id"        : "56bcb663addb3c2dfe000002",
+        "label"     : "GFC2",
+        "updated_at": "2016-02-11T16:27:15Z"
+      },
+      "visible": true
+    }
+  ]
+}
