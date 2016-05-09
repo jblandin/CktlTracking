@@ -1,0 +1,25 @@
+<div class="error" *ngIf="errorMessage">
+    <pre>{{errorMessage|json}}</pre>
+</div>
+<select class="form-control" required (change)="onSelectAnnee($event)">
+    <option *ngFor="let annee of annees" [selected]="annee.label === selectedAnnee.label">
+        {{annee.label}}
+    </option>
+</select>
+<select class="form-control" [ngFormControl]="selectedIterationControl">
+    <option *ngFor="let ite of iterations" [ngValue]="ite">
+        {{ite.iteration}}
+    </option>
+</select>
+<select class="form-control" [ngFormControl]="selectedGroupeControl">
+    <option *ngFor="let groupe of groupes" [ngValue]="groupe">
+        {{groupe.label}}
+    </option>
+</select>
+<select class="form-control" [ngFormControl]="selectedUtilisateurControl">
+    <option *ngFor="let utilisateur of utilisateurs" [ngValue]="utilisateur">
+        {{utilisateur.label}}
+    </option>
+</select>
+<hr>
+<pre>{{selectedGroupe|json}}</pre>
