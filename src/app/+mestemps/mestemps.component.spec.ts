@@ -10,11 +10,13 @@ import {ComponentFixture, TestComponentBuilder} from '@angular/compiler/testing'
 import {Component} from '@angular/core';
 import {By} from '@angular/platform-browser';
 import {MestempsComponent} from './mestemps.component';
+import {TrackingService} from '../shared';
+import {HTTP_PROVIDERS} from '@angular/http';
 
 describe('Component: Mestemps', () => {
   let builder: TestComponentBuilder;
 
-  beforeEachProviders(() => [MestempsComponent]);
+  beforeEachProviders(() => [HTTP_PROVIDERS, MestempsComponent, TrackingService]);
   beforeEach(
       inject([TestComponentBuilder], function(tcb: TestComponentBuilder) { builder = tcb; }));
 

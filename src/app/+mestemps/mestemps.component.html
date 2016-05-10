@@ -1,8 +1,8 @@
 <div class="error" *ngIf="errorMessage">
     <pre>{{errorMessage|json}}</pre>
 </div>
-<select class="form-control" required (change)="onSelectAnnee($event)">
-    <option *ngFor="let annee of annees" [selected]="annee.label === selectedAnnee.label">
+<select class="form-control" required [ngFormControl]="selectedAnneeControl">
+    <option *ngFor="let annee of annees" [ngValue]="annee" [selected]="annee.label === selectedAnnee.label">
         {{annee.label}}
     </option>
 </select>

@@ -4,10 +4,10 @@ import {TrackingService, Annee, Iteration, Groupe, Utilisateur} from '../shared'
 
 @Component({
   moduleId: module.id, selector: 'app-mestemps', templateUrl: 'mestemps.component.html',
-      styleUrls:['mestemps.component.css']
+  styleUrls: ['mestemps.component.css']
 })
 export class MestempsComponent implements OnInit {
-  constructor(private _trackingService: TrackingService) {}
+  constructor(private _trackingService: TrackingService) { }
 
 
   public annees: Annee[];
@@ -19,6 +19,7 @@ export class MestempsComponent implements OnInit {
   public selectedIteration: Iteration;
   public selectedGroupe: Groupe;
 
+  public selectedAnneeControl: Control = new Control('');
   public selectedIterationControl: Control = new Control('');
   public selectedGroupeControl: Control = new Control('');
   public selectedUtilisateurControl: Control = new Control('');
@@ -37,10 +38,15 @@ export class MestempsComponent implements OnInit {
     this.getSelectedGroupe();
 
     // Subscribe controls
+    this.selectedAnneeControl.valueChanges.subscribe(
+      annee => this._trackingService.selectAnnee(annee),
+      this.errorHandler);
     this.selectedIterationControl.valueChanges.subscribe(
-        iteration => this._trackingService.selectIteration(iteration), this.errorHandler);
+      iteration => this._trackingService.selectIteration(iteration),
+      this.errorHandler);
     this.selectedGroupeControl.valueChanges.subscribe(
-        groupe => this._trackingService.selectGroupe(groupe), this.errorHandler);
+      groupe => this._trackingService.selectGroupe(groupe),
+      this.errorHandler);
   }
 
   getAnnes() {
@@ -49,7 +55,7 @@ export class MestempsComponent implements OnInit {
 
   getIterations() {
     this._trackingService.iterations.subscribe(iterations => this.iterations = iterations,
-                                               this.errorHandler);
+      this.errorHandler);
   }
 
   getGroupes() {
@@ -58,26 +64,24 @@ export class MestempsComponent implements OnInit {
 
   getUtilisateur() {
     this._trackingService.utilisateurs.subscribe(utilisateurs => this.utilisateurs = utilisateurs,
-                                                 this.errorHandler);
+      this.errorHandler);
   }
 
   getSelectedAnnee() {
-    this._trackingService.selectedAnnee.subscribe(annee => this.selectedAnnee = annee,
-                                                  this.errorHandler);
+    this._trackingService.selectedAnnee.subscribe(
+      annee => this.selectedAnnee = annee,
+      this.errorHandler);
   }
 
   getSelectedIteration() {
     this._trackingService.selectedIteration.subscribe(
-        iteration => this.selectedIteration = iteration, this.errorHandler);
+      iteration => this.selectedIteration = iteration,
+      this.errorHandler);
   }
 
   getSelectedGroupe() {
-    this._trackingService.selectedGroupe.subscribe(groupe => this.selectedGroupe = groupe,
-                                                   this.errorHandler);
-  }
-
-  onSelectAnnee(event): void {
-    // FIXME Passer par un Control
-    this._trackingService.selectAnnee({label: event.target.value});
+    this._trackingService.selectedGroupe.subscribe(
+      groupe => this.selectedGroupe = groupe,
+      this.errorHandler);
   }
 }
