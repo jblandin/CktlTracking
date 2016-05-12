@@ -1,3 +1,5 @@
 export const environment = {
-  production: false
+  production: false,
+  backendUrl: "http://crac.intra-cocktail.org",
+  mockBackend: false
 };

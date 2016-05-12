@@ -4,3 +4,4 @@ export * from './groupe.model';
 export * from './iteration.model';
 export * from './utilisateur.model';
 export * from './tracking.service';
+export * from './temps.model';

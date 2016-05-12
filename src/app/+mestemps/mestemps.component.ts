@@ -1,6 +1,6 @@
 import {Component, OnInit} from '@angular/core';
 import {Control} from '@angular/common';
-import {TrackingService, Annee, Iteration, Groupe, Utilisateur} from '../shared'
+import {TrackingService, Annee, Iteration, Groupe, Utilisateur, Temps} from '../shared'
 
 @Component({
   moduleId: module.id, selector: 'app-mestemps', templateUrl: 'mestemps.component.html',
@@ -14,6 +14,7 @@ export class MestempsComponent implements OnInit {
   public iterations: Iteration[];
   public groupes: Groupe[];
   public utilisateurs: Utilisateur[];
+  public listeTemps: Temps[];
 
   public selectedAnnee: Annee;
   public selectedIteration: Iteration;
@@ -47,6 +48,9 @@ export class MestempsComponent implements OnInit {
     this.selectedGroupeControl.valueChanges.subscribe(
       groupe => this._trackingService.selectGroupe(groupe),
       this.errorHandler);
+    this.selectedUtilisateurControl.valueChanges.subscribe(
+      utilisateur => this._trackingService.selectUtilisateur(utilisateur),
+      this.errorHandler);
   }
 
   getAnnes() {
@@ -65,6 +69,13 @@ export class MestempsComponent implements OnInit {
   getUtilisateur() {
     this._trackingService.utilisateurs.subscribe(utilisateurs => this.utilisateurs = utilisateurs,
       this.errorHandler);
+  }
+  
+  getListeTemps() {
+    this._trackingService.listeTemps.subscribe(
+      temps => this.listeTemps = temps,
+      this.errorHandler
+    );
   }
 
   getSelectedAnnee() {
